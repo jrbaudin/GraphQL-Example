@@ -1,0 +1,17 @@
+# Folders
+/config
+node_modules
+keys
+dist
+lib
+certificates
+
+# Files
+*.sublime-project
+*.sublime-workspace
+sftp-config.json
+*.swp
+*.log
+npm-debug.log*
+.DS_Store
+.vscode
