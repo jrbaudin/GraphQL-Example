@@ -29,21 +29,6 @@ export const start = () => {
 
       const graphQLServer = express()
 
-      /* // FIXES CORS ERROR
-      const whitelist = [
-        'http://localhost:3000',
-        'http://localhost:4500',
-        'http://localhost:5000',
-      ]
-      const corsOptions = {
-        origin: function(origin, callback) {
-          const originIsWhitelisted = whitelist.indexOf(origin) !== -1
-          callback(null, originIsWhitelisted)
-        },
-        credentials: true,
-      }
-      graphQLServer.use(cors(corsOptions)) */
-
       graphQLServer.use(cors())
 
       graphQLServer.use(
