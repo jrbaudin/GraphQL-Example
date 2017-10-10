@@ -28,7 +28,6 @@
         "src/models/companiesModel.ts",
         "src/models/locationsModel.ts",
         "src/models/salesModel.ts",
-        "src/models/usersModel.ts",
-        "src/models/karma.ts"
+        "src/models/usersModel.ts"
     ]
 }

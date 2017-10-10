@@ -22,5 +22,5 @@ const run = async () => {
   }
 }
 
-winston.info(`Starting Karma Merchant API Application`)
+winston.info(`Starting GraphQL API Application`)
 run()

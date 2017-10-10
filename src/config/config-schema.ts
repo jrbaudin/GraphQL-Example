@@ -38,26 +38,4 @@ export interface IConfig {
       port: string
     }
   }
-  message_broker: {
-    prod: {
-      broker_address: string
-      broker_port: number
-      rabbitmq_user: string
-      rabbitmq_password: string
-    }
-    dev: {
-      broker_address: string
-      broker_port: number
-      rabbitmq_user: string
-      rabbitmq_password: string
-    }
-  }
-  segment: {
-    prod: {
-      write_key: string
-    }
-    dev: {
-      write_key: string
-    }
-  }
 }

@@ -31,25 +31,11 @@ export default class Config {
         : 'info'
     return level
   }
-  public getSegmentWriteKey() {
-    if (this.getEnv() === 'development') {
-      return this.config.segment.dev.write_key
-    } else {
-      return this.config.segment.prod.write_key
-    }
-  }
   public getDatabaseConfig() {
     if (this.getEnv() === 'development') {
       return this.config.database.dev
     } else {
       return this.config.database.prod
-    }
-  }
-  public getMessageBrokerConfig() {
-    if (this.getEnv() === 'development') {
-      return this.config.message_broker.dev
-    } else {
-      return this.config.message_broker.prod
     }
   }
   public getServerConfig() {

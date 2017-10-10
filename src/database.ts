@@ -6,9 +6,11 @@ const database = databaseConfig.database
 const username = databaseConfig.username
 const password = databaseConfig.password
 const host = databaseConfig.host
+const port = databaseConfig.port
 
-export const db = new Sequelize(database, username, password, {
+export const db = new Sequelize(database, null, null, {
   host: host,
+  port: port,
   dialect: 'postgres',
   pool: {
     max: 5,

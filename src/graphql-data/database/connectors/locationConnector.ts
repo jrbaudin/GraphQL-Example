@@ -24,7 +24,6 @@ export const getLocationWithId = (locationId: Number) => {
         phone,
         website,
         website_short,
-        karma_cut_percentage,
         internal_deal_incrementer,
         hidden,
         deleted,

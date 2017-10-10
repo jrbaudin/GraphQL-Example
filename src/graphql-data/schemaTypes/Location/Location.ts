@@ -1,6 +1,6 @@
 // Location Type for GraphQL
 const Location = `
-    # The Location type is used for representing a physical place where food is being saved
+    # The Location type is used for representing a physical place
     type Location {
         id: Int!
         name: String
@@ -20,7 +20,6 @@ const Location = `
         phone: String
         website: String
         website_short: String
-        karma_cut_percentage: Int
         internal_deal_incrementer: Int
         hidden: Boolean
         deleted: Boolean
